@@ -1,1 +1,1 @@
-# snacks-crud
+# django-crud

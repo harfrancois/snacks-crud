@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snacks</title>
+</head>
+<body>
+<h1>Snacks</h1>
+<nav>
+    <a href="{% url 'snack_list' %}">Snack List</a>
+    <a href="{% url 'snack_create' %}">Create Snack</a>
+</nav>
+
+{% block content %}
+
+{% endblock content %}
+
+</body>
+</html>
